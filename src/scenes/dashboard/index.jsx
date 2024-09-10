@@ -55,7 +55,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="120°C"
+            title="45°C"
             subtitle="Temperature"
             progress="0.75"
             increase="+14%"
@@ -74,7 +74,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225 m³ "
+            title="431,225 m "
             subtitle="Tank Level"
             progress="0.50"
             increase="+51%"
@@ -93,7 +93,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="500 m³/h"
+            title="500 MSCF\D"
             subtitle="Gas Flow Rate"
             progress="0.70"
             increase="+7%"
@@ -112,7 +112,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="50 m³/h"
+            title="50 MSCF\D"
             subtitle="Lost/Flared Gas"
             progress="0.43"
             increase="+43%"
@@ -234,7 +234,6 @@ const Dashboard = () => {
             >
               $48,352 revenue generated
             </Typography>
-            <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
         </Box>
         <Box
@@ -264,7 +263,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ marginBottom: "15px" }}
           >
-            Geography Based Traffic
+            Global Presence of OMV
           </Typography>
           <Box height="200px">
             <GeographyChart isDashboard={true} />
